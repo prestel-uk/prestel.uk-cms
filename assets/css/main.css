@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@tailwind utilities;
+
+@font-face {
+    font-family: Mode7-0;
+    src: url(/fonts/MODE7GX0.TTF);
+}
+
+body {
+    background-color: black;
+    padding: 40px;
+}
+
+p, a, h1, h2, h3, h4, h5, h6, p, code, pre, span {
+    font-family: Mode7-0;
+    color: white;
+}
